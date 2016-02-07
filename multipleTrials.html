@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>The Matching Problem - Multiple Trials</title>
+  <script src='lib/jquery.js'></script>
+  <script src='lib/underscore.js'></script>
+</head>
+<body>
+  <div class='container'>
+    <label>Trials: <span class='trials'>10</span></label><br>
+    <input class='trialsSelector' type='range' min='1' max='30' value='10'></input><br>
+    <label>Sample Size: <span class='size'>100</label><br>
+    <input class='sizeSelector' type='range' min='10' max='1000' value='100'></input>
+    <p>Average satisfaction: <span class='satisfaction'></span>%</p>
+  </div>
+  <script src='src/solution.js'></script>
+  <script src='src/scripts.js'></script>
+  <script>
+    initMultiple()
+  </script>
+</body>
+</html>
